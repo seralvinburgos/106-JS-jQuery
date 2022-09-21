@@ -51,7 +51,6 @@ function testArray2() {
         //if i is not equal to 7 AND i is not 13, then print
         if(i !=7 && i != 13) {
             console.log(i);
-
         }
     }
 }
@@ -64,7 +63,6 @@ function init() {
 
     let firstName = "Alvin";
     sayHi(firstName); // Hi YOURNAME
-   
 
     let result = sum(21, 21); // 42
     console.log(result); 
