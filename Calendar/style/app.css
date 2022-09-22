@@ -1,0 +1,52 @@
+h1 {
+    background-color: #212121;
+    color: white;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    min-height: 900px;
+    background-image: url(/Calendar/img/background.jpg);
+    background-size: cover;
+}
+
+.container .list {
+    flex: 3;
+}
+
+.container .info {
+    background-color: rgba(36, 89, 124, 0.469);
+    flex: 1;
+}
+
+.my-control {
+    margin-bottom: 10px;
+    margin: 30px 0 0;
+}
+
+.my-control label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;    
+}
+
+.my-control input {
+    padding: 3px 5px;
+    margin-left: 5px;
+
+}
+.my-icon {
+    color: darkgray;
+    cursor: pointer;
+}
+.my-icon.fas {
+    color: rgb(204,50,22);
+}
+#btnSave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
