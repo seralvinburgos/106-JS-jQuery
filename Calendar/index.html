@@ -15,54 +15,66 @@
             <h1>My Task Manager</h1>
         </div>
         <br>
-        <div class="task-main container rounded-3">
-            <section class="list">
-                <h3>Your Current Tasks</h3>
-                    <button id="btnToggle" type="button" class="btn btn-secondary">Add Task</button>
-            </section>
-            <section class="info rounded-3">
-                <h3>Task Information</h3>
+        <div class="task-main container d-flex rounded-3">
+            
+            <section class="list container col-8">
                 <br>
-                <div class="my-control">
-                    <label>Important</label>
-                    <i id="iImportant" class="my-icon far fa-star"></i>
+                <div class="left-1 container w-75 m-auto">
+                        <h3>Tasks</h3>
+                        <button id="btnToggle" type="button" class="btn btn-secondary">Add Task</button>
                 </div>
                 <br>
-                <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Title</label>
-                  </div>
-                <br>
-                <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Due Date</label>
-                  </div>
-                <br>
-                <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Description</label>
-                  </div>
-                <br>
-                <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Tag</label>
-                  </div>
-                <br>
-                <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Color</label>
-                  </div>
-                <br>
-                <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Category</label>
-                  </div>
-                <br>
-                    <button id="btnSave" type="button" class="btn-save btn btn-secondary">Save Task</button>
-                </div>
-        </div>
+                <div class="left-2 container w-75 rounded-4">
 
-        </section>
+                </div>
+            </section>
+
+            
+
+            <div class="info-div container col-4">
+                <section class="info container rounded-3">
+                    <h3>Task Information</h3>
+                    <br>
+                    <div class="my-control">
+                        <label>Important</label>
+                        <i id="iImportant" class="my-icon far fa-star"></i>
+                    </div>
+                    <br>
+                    <div class="form-floating w-75 m-auto">
+                        <input class="form-control" id="floatingInput" placeholder="#">
+                        <label for="floatingInput">Title</label>
+                      </div>
+                    <br>
+                    <div class="form-floating w-75 m-auto">
+                        <input class="form-control" id="floatingInput" placeholder="#">
+                        <label for="floatingInput">Due Date</label>
+                      </div>
+                    <br>
+                    <div class="form-floating w-75 m-auto">
+                        <input class="form-control" id="floatingInput" placeholder="#">
+                        <label for="floatingInput">Description</label>
+                      </div>
+                    <br>
+                    <div class="form-floating w-75 m-auto">
+                        <input class="form-control" id="floatingInput" placeholder="#">
+                        <label for="floatingInput">Tag</label>
+                      </div>
+                    <br>
+                    <div class="form-floating w-75 m-auto">
+                        <input class="form-control" id="floatingInput" placeholder="#">
+                        <label for="floatingInput">Color</label>
+                      </div>
+                    <br>
+                    <div class="form-floating w-75 m-auto">
+                        <input class="form-control" id="floatingInput" placeholder="#">
+                        <label for="floatingInput">Category</label>
+                      </div>
+                    <br><br>
+                        <button id="btnSave" type="button" class="btn-save btn btn-secondary">Save Task</button>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
