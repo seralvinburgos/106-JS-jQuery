@@ -1,28 +1,57 @@
-h1 {
-    background-color: #212121;
-    color: white;
+* {
     margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(52, 170, 170);
+}
+main .container {
+    background-color: azure;
+    color: black;
+    margin-top: 2rem;
     padding: 5px 0;
     text-align: center;
 }
-
-.container {
+#mainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    color: rgb(87, 182, 182);
+    letter-spacing: 5px;
+}
+.task-main {
+    background-color: white;
     display: flex;
     min-height: 900px;
-    background-image: url(/Calendar/img/background.jpg);
-    background-size: cover;
 }
-
 .container .list {
+    background-color: azure;
+    color: rgb(52, 170, 170);
     flex: 3;
+}
+.container .list h3 {
+    padding-top: 1rem;
+    padding-left: 4rem;
+    text-align: left;
 }
 
 .container .info {
-    background-color: rgba(36, 89, 124, 0.469);
+    margin: -5px 0;
+    background-color: rgba(231, 233, 234, 0.821);
+    color: rgb(52, 170, 170);
     flex: 1;
 }
+.container .info h3 {
+    margin: 1rem;
+   
+}
+.container .info label {
+    color: rgb(59, 58, 58);
+}
 
-.my-control {
+/* .my-control {
     margin-bottom: 10px;
     margin: 30px 0 0;
 }
@@ -37,16 +66,24 @@ h1 {
     padding: 3px 5px;
     margin-left: 5px;
 
-}
+} */
 .my-icon {
-    color: darkgray;
     cursor: pointer;
 }
 .my-icon.fas {
     color: rgb(204,50,22);
 }
+#btnToggle {
+    background-color: rgb(52, 170, 170);
+    margin-left: 6rem;
+    padding: 9px 45px;
+    border: none;
+    float: left;
+    border-radius: 50px;
+}
 #btnSave {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(52, 170, 170);
+    padding: 9px 45px;
+    border: none;
+    border-radius: 50px;
 }

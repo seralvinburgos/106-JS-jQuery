@@ -5,57 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css
-    ">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Calendar/style/app.css">
     <title>Task Manager</title>
 </head>
 <body>
-    
-    <h1>My Task Manager</h1>
-
     <main class="container">
-        <section class="list">
-            <h3>Your Current Tasks</h3>
-                <button id="btnToggle">Task Info</button>
-        </section>
-
-        <section class="info">
-            <h3>Task Information</h3>
-
-            <div class="my-control">
-                <label>Important</label>
-                <i id="iImportant" class="my-icon far fa-star"></i>
-                <input type="text">
-            </div>
-            <div class="my-control">
-                <label>Title</label>
-                <input type="text">
-            </div>
-            <div class="my-control">
-                <label>Due Date</label>
-                <input type="text">
-            </div>
-            <div class="my-control">
-                <label>Description</label>
-                <input type="text">
-            </div>
-            <div class="my-control">
-                <label>Tag</label>
-                <input type="text">
-            </div>
-            <div class="my-control">
-                <label>Color</label>
-                <input type="text">
-            </div>
-            <div class="my-control">
-                <label>Category</label>
-                <input type="text">
-            </div>
-
-            <div class="my-control">
-                <button id="btnSave" class="btn-save">Save Task</button>
-            </div>
+        <div id="mainTitle" class="container rounded-3 shadow">
+            <h1>My Task Manager</h1>
+        </div>
+        <br>
+        <div class="task-main container rounded-3">
+            <section class="list">
+                <h3>Your Current Tasks</h3>
+                    <button id="btnToggle" type="button" class="btn btn-secondary">Add Task</button>
+            </section>
+            <section class="info rounded-3">
+                <h3>Task Information</h3>
+                <br>
+                <div class="my-control">
+                    <label>Important</label>
+                    <i id="iImportant" class="my-icon far fa-star"></i>
+                </div>
+                <br>
+                <div class="form-floating w-75 m-auto">
+                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Title</label>
+                  </div>
+                <br>
+                <div class="form-floating w-75 m-auto">
+                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Due Date</label>
+                  </div>
+                <br>
+                <div class="form-floating w-75 m-auto">
+                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Description</label>
+                  </div>
+                <br>
+                <div class="form-floating w-75 m-auto">
+                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Tag</label>
+                  </div>
+                <br>
+                <div class="form-floating w-75 m-auto">
+                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Color</label>
+                  </div>
+                <br>
+                <div class="form-floating w-75 m-auto">
+                    <input class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Category</label>
+                  </div>
+                <br>
+                    <button id="btnSave" type="button" class="btn-save btn btn-secondary">Save Task</button>
+                </div>
+        </div>
 
         </section>
     </main>

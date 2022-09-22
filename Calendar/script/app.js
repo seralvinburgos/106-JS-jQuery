@@ -1,7 +1,7 @@
 var importantIcon = "fas fa-star";
 var nonImportantIcon = "far fa-star";
 var isImportant = false;
-var isVisible = true;
+var isVisible = false;
 
 function saveTask() {
     console.log("Button clicked");
@@ -17,14 +17,14 @@ function changeIcon() {
     }
 }
 function toggleSection() {
-    if(isVisible) {
-        // hide it
-        $(".info").hide();
+    if(!isVisible) {
+        // show it
+        $(".info").show();
         isVisible = false;
     }
     else {
-        // show it
-        $(".info").show();
+        // hide it
+        $(".info").hide();
         isVisible == true;
     }
 }
@@ -34,7 +34,7 @@ function init() {
 
     // on init, we load previous data
 
-
+    $(".info").hide();
     // catch events
     $("#btnSave").click(saveTask);
     $("#iImportant").click(changeIcon);
