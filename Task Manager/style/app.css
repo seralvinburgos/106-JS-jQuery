@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(52, 170, 170); */
+    background-image: url(/img/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+main .container {
+    /* background-color: rgba(219, 245, 246, 0.988); */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#mainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    /* background-color: rgba(136, 134, 134, 0.423); */
+    background-color: rgba(136, 134, 134, 0.42);
+    backdrop-filter: blur(0.2rem);
+    color: darkslategray;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.task-main {
+    background-color: rgba(165, 163, 163, 0.423);
+    backdrop-filter: blur(0.3rem);
+    /* background: hsl(0 0% 80% / 0.9) */
+    min-height: 1000px;
+}
+.container .list .left-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: darkslategrey;
+}
+.container .list .left-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(225, 223, 199, 0);
+    min-height: 900px;
+}
+.container .list h3 {
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.container .info {
+    background-color: rgba(135, 225, 188, 0.445);
+    color: darkslategrey;
+}
+.container .info h3 {
+    margin: 2rem;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.container .info label {
+    color: rgb(59, 58, 58);
+}
+.my-icon {
+    cursor: pointer;
+    padding-inline: 1.5rem;
+    font-size: 1.5rem;
+}
+.my-icon.fas {
+    color: rgb(234, 218, 115);
+}
+#btnToggle {
+    background-color: rgba(234, 210, 50, 0.673);
+    padding: 9px 50px;
+    border: none;
+    border-radius: 50px;
+    color: darkslategrey;
+}
+#btnSave {
+    background-color: rgba(234, 210, 50, 0.673);
+    padding: 9px 50px;
+    border: none;
+    border-radius: 50px;
+    color: darkslategrey;
+}
+#floatingInput {
+    height: 3.2rem;
+}

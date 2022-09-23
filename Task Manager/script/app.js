@@ -1,7 +1,7 @@
 var importantIcon = "fas fa-star";
 var nonImportantIcon = "far fa-star";
 var isImportant = false;
-var isVisible = true;
+var notVisible = true;
 
 function saveTask() {
     console.log("Button clicked");
@@ -16,16 +16,14 @@ function changeIcon() {
         $("#iImportant").removeClass(importantIcon).addClass(nonImportantIcon); isImportant = false;
     }
 }
+
 function toggleSection() {
-    if(!isVisible) {
-        // show it
+    if (notVisible) {
         $(".info").slideDown(500);
-        isVisible = true;
-    }
-    else {
-        // hide it
+        notVisible = false;
+    }else {
         $(".info").slideUp(500);
-        isVisible = false;
+        notVisible = true;
     }
 }
 
