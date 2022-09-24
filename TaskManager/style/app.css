@@ -7,11 +7,12 @@
 
 body {
     /* background-color: rgb(52, 170, 170); */
-    background-image: url(/TaskManager/img/4.jpg);
+    background-image: url(/img/4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 4rem;
     font-family: 'Montserrat', sans-serif;
+    min-height: 1600px;
 }
 main .container {
     /* background-color: rgba(219, 245, 246, 0.988); */
@@ -36,7 +37,7 @@ main .container {
     background-color: rgba(165, 163, 163, 0.423);
     backdrop-filter: blur(0.3rem);
     /* background: hsl(0 0% 80% / 0.9) */
-    min-height: 1000px;
+    
 }
 .container .list .left-1 {
     display: flex;
