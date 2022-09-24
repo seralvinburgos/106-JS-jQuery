@@ -14,6 +14,7 @@
         <div id="mainTitle" class="container rounded-4 shadow">
             <h1>My Task Manager</h1>
         </div>
+        <br>
         <div class="task-main container d-flex rounded-4 shadow">
             <section class="list row d-flex col-8">
                <br>
@@ -23,6 +24,10 @@
                </div>
                
                <div class="left-2 row rounded-4 w-100 mx-2 my-3">
+                <div id="taskList" class="container d-flex flex-column text-center">
+
+                  <!-- js will render html here -->
+                </div>
                </div>
             </section>
             <br>
@@ -35,34 +40,45 @@
                 </div>
                 <br>
                 <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="#">
+                    <input class="form-control" id="txtTitle" placeholder="#">
                     <label for="floatingInput">Title</label>
                   </div>
                 <br>
                 <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="#">
+                    <input class="form-control" id="txtDueDate" placeholder="#" type="date">
                     <label for="floatingInput">Due Date</label>
                   </div>
                 <br>
                 <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="#">
-                    <label for="floatingInput">Category</label>
+                    
+                    <select class="form-select" id="txtCategory" aria-label="Floating label select example">
+                      <option selected>Select one</option>
+                      <option value="Work">Work</option>
+                      <option value="Home">Home</option>
+                      <option value="Family">Family</option>
+                      <option value="Personal">Personal</option>
+                    </select>
+                    <label for="floatingSelect">Category</label>
                   </div>
                 <br>
                 <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="#">
+                    <input class="form-control" id="txtTag" placeholder="#">
                     <label for="floatingInput">Tag</label>
                   </div>
                 <br>
                 <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="#">
-                    <label for="floatingInput">Color</label>
+                  <!-- <label for="exampleColorInput" class="form-label"></label> -->
+                  <input type="color" class="form-control form-control-color w-100" id="txtColor" value="#563d7c" title="Choose your color">
                   </div>
                 <br>
                 <div class="form-floating w-75 m-auto">
-                    <input class="form-control" id="floatingInput" placeholder="#">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="txtDescription" style="height: 100px"></textarea>
+                  <label for="floatingTextarea2">Description</label>
+                </div>
+                <!-- <div class="form-floating w-75 m-auto">
+                    <input class="form-control" id="txtDescription" placeholder="#">
                     <label for="floatingInput">Description</label>
-                  </div>
+                  </div> -->
                 <br><br>
                     <button id="btnSave" type="button" class="btn-save btn btn-secondary">Save Task</button>
                 </di>
@@ -75,6 +91,7 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
       integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
       crossorigin="anonymous"></script>
+    <script src="/script/task.js"></script>
     <script src="/script/app.js"></script>
 </body>
 </html>

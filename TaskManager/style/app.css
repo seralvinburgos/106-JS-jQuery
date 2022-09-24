@@ -25,7 +25,7 @@ main .container {
     align-items: center;
     height: 8vh;
     /* background-color: rgba(136, 134, 134, 0.423); */
-    background-color: rgba(136, 134, 134, 0.42);
+    background-color: rgba(110, 110, 104, 0.445);
     backdrop-filter: blur(0.2rem);
     color: darkslategray;
     font-style: italic;
@@ -59,7 +59,25 @@ main .container {
     text-transform: uppercase;
     font-style: italic;
     letter-spacing: 1px;
+    font-size: larger;
 }
+#taskList {
+    width: 100%;
+}
+#taskList .container {
+    background-color: rgba(235, 234, 223, 0.445);
+    height: 8rem;
+    padding: 4px;
+}
+#taskList .task-1 {
+    background-color: rgba(222, 212, 137, 0.452);
+}
+/* #taskList .task-2 {
+    
+}
+#taskList .task-3 {
+    
+} */
 .container .info {
     background-color: rgba(135, 225, 188, 0.445);
     color: darkslategrey;
@@ -69,6 +87,7 @@ main .container {
     text-transform: uppercase;
     font-style: italic;
     letter-spacing: 1px;
+    font-size: larger;
 }
 .container .info label {
     color: rgb(59, 58, 58);
