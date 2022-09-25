@@ -39,12 +39,12 @@ function displayTask(task) {
             <br>
             <div class="text-wrap text-start ms-2"><label>${task.description}</label></div>
         </div>
-        <div class="task-2 col-2 d-flex flex-column flex-fill my-auto">
+        <div class="task-2 col-2 d-flex flex-column flex-fill">
             <div class="fst-italic"><h6>Due Date</h6></div>
             <div class=""><label>${task.dueDate}</label></div>
             <br>
             <div class="fst-italic"><h6>Color</h6></div>
-            <div class=""><label>${task.color}</label></div>
+            <div id="colorVal" style="background-color: ${task.color};"><label></label></div>
         </div>
         <div class="task-3 col-2 d-flex flex-column flex-fill my-auto">
             <div class="fst-italic"><h6>Category:</h6></div>

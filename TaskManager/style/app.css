@@ -7,7 +7,7 @@
 
 body {
     /* background-color: rgb(52, 170, 170); */
-    background-image: url(/img/4.jpg);
+    background-image: url(/TaskManager/img/4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 4rem;
@@ -78,6 +78,9 @@ main .container {
 #taskList .task-3 {
     
 } */
+#colorVal {
+    margin-bottom: 1rem;
+}
 .container .info {
     background-color: rgba(135, 225, 188, 0.445);
     color: darkslategrey;
