@@ -78,6 +78,10 @@ main .container {
 #taskList .task-3 {
     
 } */
+#txtColor {
+    display: flex;
+    align-items: center;
+}
 #colorVal {
     width: 3rem;
     height: 1rem;
