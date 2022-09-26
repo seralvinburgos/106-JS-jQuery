@@ -79,7 +79,10 @@ main .container {
     
 } */
 #colorVal {
-    margin-bottom: 1rem;
+    width: 3rem;
+    height: 1rem;
+    margin: auto;
+    border-radius: 10px;
 }
 .container .info {
     background-color: rgba(135, 225, 188, 0.445);
