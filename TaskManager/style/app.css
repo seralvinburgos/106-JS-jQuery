@@ -25,7 +25,7 @@ main .container {
     align-items: center;
     height: 8vh;
     /* background-color: rgba(136, 134, 134, 0.423); */
-    background-color: rgba(110, 110, 104, 0.445);
+    background-color: rgba(110, 110, 104, 0.363);
     backdrop-filter: blur(0.2rem);
     color: darkslategray;
     font-style: italic;
